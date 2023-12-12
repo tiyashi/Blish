@@ -1,0 +1,525 @@
+*{
+	text-decoration: none;
+	margin: 0;
+	padding: 0;
+}
+
+.body1{
+	background-color: #bec5e4;
+}
+.navbar{
+	background: rgb(47, 118, 151); align-items: center; height: 110px; cursor: pointer; border: 2px solid;
+}
+.navdiv{
+	display: flex; align-items: center; justify-content: space-between; 
+}
+.navdiv ul{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.logo a{
+	font-size: 35px; font-weight: 600; color: white;
+}
+li{
+	list-style: none; display: inline-block;
+}
+li a{
+	color: rgb(255, 255, 255); font-size: 20px; font-weight: bold; margin-right: 150px; font-family: Arial;
+}
+button{
+	background-color: rgb(255, 255, 255); align-items: center; margin-right: 15px; margin-left: 5px; border-radius: 03px; padding: 10px; width: 40px;
+}
+button a{
+	color: rgb(0, 0, 0); font-weight: bold; font-size:12px;
+}
+form {
+	
+	top: 140px; 
+	right: 80px; 
+}
+.image-section { 
+    width: 100%; 
+	height: 600px;
+}
+.offer{
+	text-align: center;
+    font-family: 'Times New Roman', Times, serif, 
+}
+.p {
+	text-align: center;
+	padding: 50px;
+}
+.image-container {
+    position: relative;
+    width: 100%;
+}
+
+.image-section {
+    width: 100%;
+    height: auto;
+} 
+
+.image-content2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.image-content2 p {
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 200px;
+	font-family: Arial, sans-serif; 
+    font-size: 18px; 
+    color: white; 
+    
+}
+
+.picture-container {
+	display: inline-block;
+	width: 28%; 
+	text-align: center;
+	margin-left: 4%;
+	/* padding: 10px; */
+	border: 1px solid #ccc; 
+}
+
+.picture {
+	width: 100%;
+	max-width: 100%;
+	height: 200px;
+}
+.last-image{
+	width: 100%;
+	height: 500px;
+	margin-top: 2%;
+
+}
+
+
+.picture-box {
+	width: 150px; 
+	height: 400px; 
+	box-sizing: border-box; 
+	display: inline-block;
+	vertical-align: top; /* Align the boxes at the top */
+	text-align: center;
+	margin: 100px; 
+}
+
+/* CSS for styling the colored boxes with text */
+.grid1{
+	display: grid;
+	grid-template-columns: auto auto auto;
+	margin-top: 10%;
+	margin-left: 4%;
+	margin-right: 4%;
+	
+
+}
+.p1{
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.col_1{
+	padding: 20px;
+}
+.img1{
+	width: 100%;
+	height: 400px;
+}
+.colored-box {
+	background-color: #3498db; 
+	color: #fff;
+	padding: 10px;
+	margin-top: 50px; 
+}
+table {
+	border-collapse: collapse;
+	width: 100%; 
+	margin: 0; 
+}
+
+th, td {
+	border: 1px solid #000; /*  borders to table cells */
+	padding: 10px; /*  padding to table cells */
+	text-align: center; 
+}
+.adventure_pic img {
+	width: 1295px;
+	height: 400px;
+	padding-top: 30px;
+}
+.adventure_pic2 img {
+	width: 1295px; 
+	height: 400px; 
+	padding-top: 30px;
+}
+.adventure_pic,
+.adventure_pic2 {
+    position: relative; 
+    display: inline-block; 
+
+}
+
+
+.image-content {
+    
+    top: 100px; 
+    left: 100px; 
+    background-color: rgba(0, 0, 0, 0.5); 
+    color: white; 
+    padding: 10px; 
+    font-size: 16px; 
+}
+
+
+.left-side {
+
+width: 50%;
+
+float: left;
+
+}
+.left-side {
+    position: relative;
+}
+
+.buttons {
+    position: relative; 
+    text-align: center;
+}
+.roomtypelbl{
+    width: 90%;
+    margin-top: 10px;
+}
+.button2{
+    width: 20%;
+    background-color:  #3498db;
+    border-style: none;
+    color: white;
+}
+.button2:hover{
+    background-color: #2980b9;
+}
+.details{
+    display: flex;
+}
+.menu-button {
+    position: absolute; 
+    top: 50%; /* Center vertically */
+    left: 145%; /* Center horizontally */
+   
+    padding: 10px 20px;
+    background-color: #060707;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.menu-button:hover {
+    background-color: #555;
+}
+/* CSS for the menu button */
+.menu-button2 {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #060707; 
+    color: white; 
+    text-decoration: none; 
+    border-radius: 5px; /* Rounded corners */
+	
+	margin-right: 5px;
+	margin-top: 15px;
+	
+
+	
+}
+
+.menu-button2:hover {
+    background-color: #3498db; 
+}
+
+
+
+.right-side {
+
+width: 50%;
+
+float: right;
+
+}
+.left-side img {
+
+	width: 105%;
+	
+	}
+	
+	.right-side {
+	
+	background-color: rgb(109, 190, 228);
+	
+	padding: 50px;
+	height: 380px; 
+	text-align: center;
+
+}
+
+h1 {
+	margin-left: 30px; 
+	padding-top: 20px;
+}
+
+p {
+	margin-left: 30px; 
+}
+.right-as {
+	width: 50%;
+	float: right; 
+	padding-left: 33px;
+	padding-right: 30px;
+	
+}
+
+.left-as {
+	width: 50%;
+	float: left;
+	text-align: center;
+	padding: 60PX;
+	
+
+}
+
+.right-as img {
+	width: 105%;
+}
+
+.left-side {
+	
+	padding: 0px;
+	height: 380px;
+	
+
+}
+.restaurant3 {
+
+	width: 680px;
+	padding-top: 0px;
+	height: 295px;
+}
+.menu-button3 {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #060707; 
+    color: white; 
+    text-decoration: none; 
+    border-radius: 5px; 
+	
+	margin-left: 30px;
+	margin-top: 15px;
+	
+
+	
+}
+.menu-button3:hover {
+    background-color: #555;
+}
+
+.left-bar{
+	text-align: center;
+	margin-left: 650px;
+	margin-top: -350px;
+
+}
+.sub_btn{
+	width: 25%;
+	height: auto;
+}
+.sub_btn button{
+	font-size: x-small;
+}
+.search_bar{
+	position: absolute;
+	left: 70%;
+	top: 20%
+}
+.search_field{
+	width: 70%;
+	height: 2em;
+}
+.search_btn{
+	width: 20%;
+	height: 2em;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+.footer{
+    margin-top: 150px;
+    width: 100%;
+    padding: 150px 15%;
+    background: #333;
+    color: #efefef;
+    display: flex;
+}
+.footer div{
+    text-align: center;
+}
+.col2{
+    flex-grow: 2;
+
+}
+.footer div h3{
+    font-weight: 300;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+.col1 a{
+    display: block;
+    text-decoration: none;
+    color: #efefef;
+    margin-bottom: 10px;
+}
+.bookings-form input{
+    width: 400px;
+    height: 45px;
+    border-radius: 4;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    outline: none;
+    border: none;
+}
+.bookings-form button{
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    border-radius: 30px;
+    padding: 10px 30px;
+    font-size: 15px;
+    cursor: pointer;
+
+}
+.social-icons{
+    margin-top: 30px;
+
+}
+.social-icons{
+    font-size: 22px;
+    margin: 10px;
+    cursor: pointer;
+}
+.form-background {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    
+}
+
+
+.bookings-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+textarea,
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+select {
+    height: 40px;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+input[type="submit"] {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #2980b9;
+}
+
+.form-background{
+    background-image: url('473204798.jpg'); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    background-color: #f2f2f2; 
+}
+
+
+.input-box, #input-box {
+    background-color: rgba(255, 255, 255, 0.8); 
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+#eventButton {
+    background-color: #007BFF; 
+    color: #fff; 
+    padding: 20px 50px; 
+    border: none; 
+    cursor: pointer; 
+    border-radius: 5px; 
+    font-size: 18px; 
+	
+}
+
+
+#eventButton:hover {
+    background-color: #0056b3; 
+}
+#eventButton2 {
+    background-color: #007BFF;
+    color: #fff; 
+    padding: 20px 50px; 
+    border: none; 
+    cursor: pointer; 
+    border-radius: 5px; 
+    font-size: 18px; 
+	
+}
+
+
+#eventButton2:hover {
+    background-color: #0056b3; 
+}
+
+.formtitle {
+    font-weight: bold;
+    text-align: center;
+    margin-top: 2%;
+}

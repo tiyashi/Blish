@@ -1,0 +1,14 @@
+.side1-pic{
+    float: left;
+    width: 400px;
+    margin-top: 0%;
+}
+.event2-heading{
+    text-align: center;
+}
+.side2-pic {
+    float: right;
+    width: 400px;
+    margin-top: 0%;
+    height: 600px;
+}

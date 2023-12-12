@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Booking Form</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to the CSS file  -->
+    <script src="main.js" defer></script>
+</head>
+<body class="form-background">
+    <nav class="navbar">
+        <div class="navdiv">
+            <div class="logo"><img src="hotel logo.png" class="logo" width="120" height="120"></div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="branches.html">Bracnhes</a></li>
+                <li><a href="restaurats.html">Restaurants</a></li>
+                <li><a href="adventures.html">Adventures</a></li>
+                <li><a href="bookings.html">Book</a></li>
+            </ul>      
+        </div>
+    </nav>
+
+    
+
+    
+
+    <!-- <div class="left-container">
+        <section class="body-form">
+        <div class="container3"> 
+            <div class="title"> Book your hotel room now! </div> <br> -->
+        <div class="formtitle"> Room Booking </div> <br>
+     <div class="input-box">
+        <span class="details"> Full Name </span>
+        <input type="text" id="fullName" placeholder="Enter your name" required>    
+    </div> 
+    
+    <div class="input-box">
+        <span class="details"> Country </span>
+        <input type="text" id="country" placeholder="Enter your country" required>    
+    </div>
+
+    <!-- <form class="bookings-form"> 
+        <label for="name">Full Name:</label>
+        <input type="text" name="name" required> -->
+
+        <!-- <label for="email">Email:</label>
+        <input type="email" name="email" required> -->
+
+        <div class="input-box">
+
+            <div class="input-box">
+                <span class="details"> Hotel Branch </span>
+                <select class="combobox" name="hotelType" id="hotelType">
+                    <option value="roomType"> Hotel Branch </option>
+                    <option value="roomType">  Mountains </option>
+                    <option value="roomType">  Sea </option>
+                    <option value="roomType">  Lake </option>
+                </select>  
+            </div>
+
+            <div class="input-box">
+                <span class="details"> Check-in Date </span>
+                <input id="checkInDate "type="date" required>  
+            </div> 
+
+        <!-- <label for="check-in">Check-In Date:</label>
+        <input type="date" name="check-in" required> -->
+
+        <div class="input-box">
+            <span class="details"> Check-out Date </span>
+            <input id="checkOutDate" type="date" required>  
+        </div>
+
+        <!-- <label for="check-out">Check-Out Date:</label>
+        <input type="date"  name="check-out" required> -->
+
+        <span> Room Type </span><br>
+        <span class="details">
+            <input type="radio" id="single" name="roomType" value="single">
+            <label for="single" class="roomtypelbl">Single</label> 
+        
+            <input type="radio" id="double" name="roomType" value="double">
+            <label for="double" class="roomtypelbl">Double</label>
+        
+            <input type="radio" id="triple" name="roomType" value="triple">
+            <label for="triple" class="roomtypelbl">Triple</label> <br> <br>
+        </span>
+                        
+
+        <!-- <label for="room-type">Room Type:</label>
+        <select name="room-type">
+            <option value="standard">Standard</option>
+            <option value="deluxe">Deluxe</option>
+            <option value="suite">Suite</option>
+        </select> -->
+
+        <label class ="children1" for="numOfRooms">Number of Rooms </label>
+                    <input type="number" id="numOfRooms" name="numOfRooms" min="1" value="1"> 
+
+
+                    <label class ="children1" for="children">Number of Children:</label>
+                    <input type="number" id="children" name="children" min="0" value="0">
+
+                    <label class ="adults1" for="children">Number of Adults:</label>
+                    <input type="number" id="adults" name="adults" min="0" value="0">
+                    
+                </div>
+            </div>
+
+        <!-- <label for="special-requests">Special Requests:</label>
+        <textarea id="special-requests" name="special-requests" rows="4"></textarea> -->
+
+        <div class="input-box">
+
+        <p>
+            <label> Wi-Fi </label>
+            <input type="checkbox" name="extraRequirements" id="wiFi" value="wiFi">
+        </p>
+        <p>
+            <label > Pool View </label>
+            <input type="checkbox" name="extraRequirements" id="poolView" value="poolView">
+        </p>
+        <p>
+            <label > Garden View </label>
+            <input type="checkbox" name="extraRequirements" id="gardenView" value="gardenView">
+        </p>
+
+        <p>
+            <label > Extra Bed </label>
+            <input type="checkbox" name="extraRequirements" id="extraBed" value="extraBed">
+        </p>
+
+    <!-- <div class="user-details">
+        <div class="input-box"> -->
+            <span class="details"> Enter Promo Code (Optional) </span>
+            <input type="text" id="promo" placeholder="Enter Promo Code" >    
+        <!-- </div>
+    </div>  -->
+
+        <!-- <label>Payment Method:</label>
+        <input type="radio" name="payment-method" value="credit-card">
+        <label for="credit-card">Credit Card</label>
+        <input type="radio"  name="payment-method" value="paypal">
+        <label for="paypal">PayPal</label>
+
+        <input type="submit" value="Book Now"> -->
+
+        <!-- Cost of the current bookings(s) section -->
+
+        <fieldset>
+            <legend> Current number & cost of the booking(s) </legend> 
+                <p id="currentCost">  0 </p>
+            </fieldset>
+            <br>
+            <!-- <div class="button">
+                <input type="submit" id="addBookingBtn" value="Add Booking">
+            </div><br> -->
+            <div class="button">
+                <input type="submit" id="hotelBtn" value="Book Hotel">
+            </div>
+            <p id="output1"> </p>
+        </div>
+    </div>
+        
+        </section>
+
+        <div class="formtitle"> Adventure Booking </div> <br>
+        
+        <form action="booking.html">
+            <div class="user-details" id="input-box">
+                <div class="input-box">
+                    <span class="details"> Full Name </span>
+                    <input type="text" id="fullNameAdventure" placeholder="Enter your name" required>    
+                </div>
+        
+                <div class="input-box">
+                    <span class="details"> Country </span>
+                    <input type="text" id="countryAdventure" placeholder="Enter your country" required>    
+                </div>
+        
+                <div class="input-box">
+                    <span class="details"> Adventure Type </span>
+                    <select class="combobox" name="adventureType" id="adventureType">
+                        <option value="adventureType"> Adventure Type </option>
+                        <option value="diving"> Diving </option>
+                        <option value="kayaking">Kayaking</option>
+                        <option value="hiking">Hiking</option>
+                    </select>  <br>
+        
+                    <label class="children1" for="children">Number of Children:</label>
+                    <input type="number" id="childrenAdventure" name="children" min="0" value="0">
+        
+                    <label class="adults1" for="children">Number of Adults:</label>
+                    <input type="number" id="adultsAdventure" name="adults" min="0" value="0">
+                </div>
+            
+        
+                 <label> Do you require a guide for the diving session? </label> <br> <br>
+        
+                <input type="radio" id="adultGuideCost" name="guideRequirementsCost" value="adultGuideCost">
+                <label for="adultGuideCost">Adult Guide</label> <br>
+        
+                <input type="radio" id="kidGuideCost" name="guideRequirementsCost" value="kidGuideCost">
+                 <label for="kidGuideCost">Kid Guide</label> <br>
+        
+                <div class="button">
+                   <input type="submit" id="adventureBtn" value="Book Adventure">
+                </div>
+
+                <p id="output2"> </p> <br>
+            
+                <!-- Line break before the 2 buttons  -->
+            
+                <div class="container-buttons">
+                    <button type="button" id="addToFavouritesBtn" class="button2"> Add To Favourites </button>
+                    <button type="button" id="checkLoyaltyBtn" class="button2"> Check Loyalty </button>
+                </div> <br>
+                <div>
+                    <button type="button" id="overallButton" class="button2">Overall Button</button>
+                </div>
+                <div class="loyaltyPoints">
+                    <label for="loyaltyPoints"> Loyalty Points: </label>
+                    <span id="loyaltyPointsResult"> </span>
+                </div> <br>
+
+                <div class="overallBooking">
+                    <label for="overallBooking"> Overall Booking: </label>
+                    <p id="output-1">Order details will be updated here!!!</p>
+                    <p id="output-2"></p>
+                    <p id="output-3"></p>
+
+                <!-- <span id="loyaltyPointsResult"> </span> -->
+            </div> <br>
+        </div>
+        
+        
+        
+        
+           
+
+    </form>
+
+
+
+</div>
+
+
+
+    
+    
+</body>
+</html>
